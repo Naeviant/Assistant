@@ -22,227 +22,167 @@ Assistant
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS">
+<member name="T:Assistant.AssistantDBDataSet">
 <summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.BooksTableDataTable">
+<member name="T:Assistant.AssistantDBDataSet.AssignmentsDataTable">
 <summary>
 Represents the strongly named DataTable class.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.SubjectsTableDataTable">
+<member name="T:Assistant.AssistantDBDataSet.ResultsDataTable">
 <summary>
 Represents the strongly named DataTable class.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.EventsTableDataTable">
+<member name="T:Assistant.AssistantDBDataSet.SubjectsDataTable">
 <summary>
 Represents the strongly named DataTable class.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.ExamsTableDataTable">
+<member name="T:Assistant.AssistantDBDataSet.Exam_TypesDataTable">
 <summary>
 Represents the strongly named DataTable class.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.HomeworkTableDataTable">
+<member name="T:Assistant.AssistantDBDataSet.ToDosDataTable">
 <summary>
 Represents the strongly named DataTable class.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.LettersTableDataTable">
+<member name="T:Assistant.AssistantDBDataSet.ExamsDataTable">
 <summary>
 Represents the strongly named DataTable class.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.ResultsTableDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
-<member name="T:Assistant.AssistantDS.RoomsTableDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
-<member name="T:Assistant.AssistantDS.ToDosTableDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
-<member name="T:Assistant.AssistantDS.BooksTableRow">
+<member name="T:Assistant.AssistantDBDataSet.AssignmentsRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.SubjectsTableRow">
+<member name="T:Assistant.AssistantDBDataSet.ResultsRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.EventsTableRow">
+<member name="T:Assistant.AssistantDBDataSet.SubjectsRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.ExamsTableRow">
+<member name="T:Assistant.AssistantDBDataSet.Exam_TypesRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.HomeworkTableRow">
+<member name="T:Assistant.AssistantDBDataSet.ToDosRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.LettersTableRow">
+<member name="T:Assistant.AssistantDBDataSet.ExamsRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.ResultsTableRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:Assistant.AssistantDS.RoomsTableRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:Assistant.AssistantDS.ToDosTableRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:Assistant.AssistantDS.BooksTableRowChangeEvent">
+<member name="T:Assistant.AssistantDBDataSet.AssignmentsRowChangeEvent">
 <summary>
 Row event argument class
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.SubjectsTableRowChangeEvent">
+<member name="T:Assistant.AssistantDBDataSet.ResultsRowChangeEvent">
 <summary>
 Row event argument class
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.EventsTableRowChangeEvent">
+<member name="T:Assistant.AssistantDBDataSet.SubjectsRowChangeEvent">
 <summary>
 Row event argument class
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.ExamsTableRowChangeEvent">
+<member name="T:Assistant.AssistantDBDataSet.Exam_TypesRowChangeEvent">
 <summary>
 Row event argument class
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.HomeworkTableRowChangeEvent">
+<member name="T:Assistant.AssistantDBDataSet.ToDosRowChangeEvent">
 <summary>
 Row event argument class
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.LettersTableRowChangeEvent">
+<member name="T:Assistant.AssistantDBDataSet.ExamsRowChangeEvent">
 <summary>
 Row event argument class
 </summary>
 </member>
-<member name="T:Assistant.AssistantDS.ResultsTableRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
-<member name="T:Assistant.AssistantDS.RoomsTableRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
-<member name="T:Assistant.AssistantDS.ToDosTableRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
-<member name="T:Assistant.AssistantDSTableAdapters.BooksTableTableAdapter">
+<member name="T:Assistant.AssistantDBDataSetTableAdapters.AssignmentsTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDSTableAdapters.SubjectsTableTableAdapter">
+<member name="T:Assistant.AssistantDBDataSetTableAdapters.ResultsTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDSTableAdapters.EventsTableTableAdapter">
+<member name="T:Assistant.AssistantDBDataSetTableAdapters.SubjectsTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDSTableAdapters.ExamsTableTableAdapter">
+<member name="T:Assistant.AssistantDBDataSetTableAdapters.Exam_TypesTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDSTableAdapters.HomeworkTableTableAdapter">
+<member name="T:Assistant.AssistantDBDataSetTableAdapters.ToDosTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDSTableAdapters.LettersTableTableAdapter">
+<member name="T:Assistant.AssistantDBDataSetTableAdapters.ExamsTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDSTableAdapters.ResultsTableTableAdapter">
-<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member>
-<member name="T:Assistant.AssistantDSTableAdapters.RoomsTableTableAdapter">
-<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member>
-<member name="T:Assistant.AssistantDSTableAdapters.ToDosTableTableAdapter">
-<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member>
-<member name="T:Assistant.AssistantDSTableAdapters.TableAdapterManager">
+<member name="T:Assistant.AssistantDBDataSetTableAdapters.TableAdapterManager">
 <summary>
 TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
 </summary>
 </member>
-<member name="M:Assistant.AssistantDSTableAdapters.TableAdapterManager.UpdateUpdatedRows(Assistant.AssistantDS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<member name="M:Assistant.AssistantDBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Assistant.AssistantDBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
 <summary>
 Update rows in top-down order.
 </summary>
 </member>
-<member name="M:Assistant.AssistantDSTableAdapters.TableAdapterManager.UpdateInsertedRows(Assistant.AssistantDS,System.Collections.Generic.List{System.Data.DataRow})">
+<member name="M:Assistant.AssistantDBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Assistant.AssistantDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
 <summary>
 Insert rows in top-down order.
 </summary>
 </member>
-<member name="M:Assistant.AssistantDSTableAdapters.TableAdapterManager.UpdateDeletedRows(Assistant.AssistantDS,System.Collections.Generic.List{System.Data.DataRow})">
+<member name="M:Assistant.AssistantDBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Assistant.AssistantDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
 <summary>
 Delete rows in bottom-up order.
 </summary>
 </member>
-<member name="M:Assistant.AssistantDSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<member name="M:Assistant.AssistantDBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
 <summary>
 Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
 </summary>
 </member>
-<member name="M:Assistant.AssistantDSTableAdapters.TableAdapterManager.UpdateAll(Assistant.AssistantDS)">
+<member name="M:Assistant.AssistantDBDataSetTableAdapters.TableAdapterManager.UpdateAll(Assistant.AssistantDBDataSet)">
 <summary>
 Update all changes to the dataset.
 </summary>
 </member>
-<member name="T:Assistant.AssistantDSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<member name="T:Assistant.AssistantDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
 <summary>
 Update Order Option
 </summary>
 </member>
-<member name="T:Assistant.AssistantDSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<member name="T:Assistant.AssistantDBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
 <summary>
 Used to sort self-referenced table's rows
 </summary>

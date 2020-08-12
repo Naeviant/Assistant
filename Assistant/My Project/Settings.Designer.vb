@@ -15,7 +15,7 @@ Option Explicit On
 Namespace My
     
     <Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),  _
-     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "14.0.0.0"),  _
+     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.6.0.0"),  _
      Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)>  _
     Partial Friend NotInheritable Class MySettings
         Inherits Global.System.Configuration.ApplicationSettingsBase
@@ -29,7 +29,7 @@ Namespace My
     Private Shared addedHandlerLockObject As New Object
 
     <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)> _
-    Private Shared Sub AutoSaveSettings(ByVal sender As Global.System.Object, ByVal e As Global.System.EventArgs)
+    Private Shared Sub AutoSaveSettings(sender As Global.System.Object, e As Global.System.EventArgs)
         If My.Application.SaveMySettingsOnExit Then
             My.Settings.Save()
         End If
@@ -62,174 +62,6 @@ Namespace My
             Get
                 Return CType(Me("AssistantDBConnectionString"),String)
             End Get
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property HomeworkMonday() As Boolean
-            Get
-                Return CType(Me("HomeworkMonday"),Boolean)
-            End Get
-            Set
-                Me("HomeworkMonday") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property HomeworkTuesday() As Boolean
-            Get
-                Return CType(Me("HomeworkTuesday"),Boolean)
-            End Get
-            Set
-                Me("HomeworkTuesday") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property HomeworkWednesday() As Boolean
-            Get
-                Return CType(Me("HomeworkWednesday"),Boolean)
-            End Get
-            Set
-                Me("HomeworkWednesday") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property HomeworkThursday() As Boolean
-            Get
-                Return CType(Me("HomeworkThursday"),Boolean)
-            End Get
-            Set
-                Me("HomeworkThursday") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property HomeworkFriday() As Boolean
-            Get
-                Return CType(Me("HomeworkFriday"),Boolean)
-            End Get
-            Set
-                Me("HomeworkFriday") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property HomeworkSaturday() As Boolean
-            Get
-                Return CType(Me("HomeworkSaturday"),Boolean)
-            End Get
-            Set
-                Me("HomeworkSaturday") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property HomeworkSunday() As Boolean
-            Get
-                Return CType(Me("HomeworkSunday"),Boolean)
-            End Get
-            Set
-                Me("HomeworkSunday") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property RevisionMonday() As Boolean
-            Get
-                Return CType(Me("RevisionMonday"),Boolean)
-            End Get
-            Set
-                Me("RevisionMonday") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property RevisionTuesday() As Boolean
-            Get
-                Return CType(Me("RevisionTuesday"),Boolean)
-            End Get
-            Set
-                Me("RevisionTuesday") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property RevisionWednesday() As Boolean
-            Get
-                Return CType(Me("RevisionWednesday"),Boolean)
-            End Get
-            Set
-                Me("RevisionWednesday") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property RevisionThursday() As Boolean
-            Get
-                Return CType(Me("RevisionThursday"),Boolean)
-            End Get
-            Set
-                Me("RevisionThursday") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property RevisionFriday() As Boolean
-            Get
-                Return CType(Me("RevisionFriday"),Boolean)
-            End Get
-            Set
-                Me("RevisionFriday") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property RevisionSaturday() As Boolean
-            Get
-                Return CType(Me("RevisionSaturday"),Boolean)
-            End Get
-            Set
-                Me("RevisionSaturday") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property RevisionSunday() As Boolean
-            Get
-                Return CType(Me("RevisionSunday"),Boolean)
-            End Get
-            Set
-                Me("RevisionSunday") = value
-            End Set
         End Property
     End Class
 End Namespace

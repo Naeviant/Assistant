@@ -1,18 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{97570602-4292-4CE3-8EBC-EA1416FC85B6}</ProjectGuid>
+    <ProjectGuid>{D1C3534F-46A6-4755-8361-4DA027CC5D5B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <StartupObject>Assistant.My.MyApplication</StartupObject>
     <RootNamespace>Assistant</RootNamespace>
     <AssemblyName>Assistant</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -51,7 +52,6 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -73,181 +73,55 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddBooks.Designer.vb">
-      <DependentUpon>AddBooks.vb</DependentUpon>
+    <Compile Include="Assignments.Designer.vb">
+      <DependentUpon>Assignments.vb</DependentUpon>
     </Compile>
-    <Compile Include="AddBooks.vb">
+    <Compile Include="Assignments.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddEvents.Designer.vb">
-      <DependentUpon>AddEvents.vb</DependentUpon>
+    <Compile Include="AssignmentsFilter.Designer.vb">
+      <DependentUpon>AssignmentsFilter.vb</DependentUpon>
     </Compile>
-    <Compile Include="AddEvents.vb">
+    <Compile Include="AssignmentsFilter.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddExams.Designer.vb">
-      <DependentUpon>AddExams.vb</DependentUpon>
-    </Compile>
-    <Compile Include="AddExams.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddHomework.Designer.vb">
-      <DependentUpon>AddHomework.vb</DependentUpon>
-    </Compile>
-    <Compile Include="AddHomework.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddLetters.Designer.vb">
-      <DependentUpon>AddLetters.vb</DependentUpon>
-    </Compile>
-    <Compile Include="AddLetters.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddResults.Designer.vb">
-      <DependentUpon>AddResults.vb</DependentUpon>
-    </Compile>
-    <Compile Include="AddResults.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddRooms.Designer.vb">
-      <DependentUpon>AddRooms.vb</DependentUpon>
-    </Compile>
-    <Compile Include="AddRooms.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddSubjects.Designer.vb">
-      <DependentUpon>AddSubjects.vb</DependentUpon>
-    </Compile>
-    <Compile Include="AddSubjects.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddToDos.Designer.vb">
-      <DependentUpon>AddToDos.vb</DependentUpon>
-    </Compile>
-    <Compile Include="AddToDos.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AssistantDS.Designer.vb">
+    <Compile Include="AssistantDBDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>AssistantDS.xsd</DependentUpon>
+      <DependentUpon>AssistantDBDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="AssistantDS.vb">
-      <DependentUpon>AssistantDS.xsd</DependentUpon>
+    <Compile Include="AssignmentsEdit.Designer.vb">
+      <DependentUpon>AssignmentsEdit.vb</DependentUpon>
     </Compile>
-    <Compile Include="EditBooks.Designer.vb">
-      <DependentUpon>EditBooks.vb</DependentUpon>
-    </Compile>
-    <Compile Include="EditBooks.vb">
+    <Compile Include="AssignmentsEdit.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditEvents.Designer.vb">
-      <DependentUpon>EditEvents.vb</DependentUpon>
+    <Compile Include="AssistantDBDataSet.vb">
+      <DependentUpon>AssistantDBDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="EditEvents.vb">
+    <Compile Include="Exams.Designer.vb">
+      <DependentUpon>Exams.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Exams.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditExams.Designer.vb">
-      <DependentUpon>EditExams.vb</DependentUpon>
+    <Compile Include="ExamsEdit.Designer.vb">
+      <DependentUpon>ExamsEdit.vb</DependentUpon>
     </Compile>
-    <Compile Include="EditExams.vb">
+    <Compile Include="ExamsEdit.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditHomework.Designer.vb">
-      <DependentUpon>EditHomework.vb</DependentUpon>
+    <Compile Include="ExamsFilter.Designer.vb">
+      <DependentUpon>ExamsFilter.vb</DependentUpon>
     </Compile>
-    <Compile Include="EditHomework.vb">
+    <Compile Include="ExamsFilter.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditLetters.Designer.vb">
-      <DependentUpon>EditLetters.vb</DependentUpon>
-    </Compile>
-    <Compile Include="EditLetters.vb">
+    <Compile Include="Landing.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditResults.Designer.vb">
-      <DependentUpon>EditResults.vb</DependentUpon>
-    </Compile>
-    <Compile Include="EditResults.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EditRooms.Designer.vb">
-      <DependentUpon>EditRooms.vb</DependentUpon>
-    </Compile>
-    <Compile Include="EditRooms.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EditSubjects.Designer.vb">
-      <DependentUpon>EditSubjects.vb</DependentUpon>
-    </Compile>
-    <Compile Include="EditSubjects.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EditToDos.Designer.vb">
-      <DependentUpon>EditToDos.vb</DependentUpon>
-    </Compile>
-    <Compile Include="EditToDos.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FilterBooks.Designer.vb">
-      <DependentUpon>FilterBooks.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FilterBooks.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FilterEvents.Designer.vb">
-      <DependentUpon>FilterEvents.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FilterEvents.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FilterExams.Designer.vb">
-      <DependentUpon>FilterExams.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FilterExams.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FilterHomeworks.Designer.vb">
-      <DependentUpon>FilterHomeworks.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FilterHomeworks.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FilterLetters.Designer.vb">
-      <DependentUpon>FilterLetters.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FilterLetters.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FilterResults.Designer.vb">
-      <DependentUpon>FilterResults.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FilterResults.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FilterRooms.Designer.vb">
-      <DependentUpon>FilterRooms.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FilterRooms.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FilterSubjects.Designer.vb">
-      <DependentUpon>FilterSubjects.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FilterSubjects.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FilterToDos.Designer.vb">
-      <DependentUpon>FilterToDos.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FilterToDos.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainMenu.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainMenu.Designer.vb">
-      <DependentUpon>MainMenu.vb</DependentUpon>
+    <Compile Include="Landing.Designer.vb">
+      <DependentUpon>Landing.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -265,145 +139,70 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="ViewBooks.Designer.vb">
-      <DependentUpon>ViewBooks.vb</DependentUpon>
+    <Compile Include="ResultsEdit.Designer.vb">
+      <DependentUpon>ResultsEdit.vb</DependentUpon>
     </Compile>
-    <Compile Include="ViewBooks.vb">
+    <Compile Include="ResultsEdit.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ViewEvents.Designer.vb">
-      <DependentUpon>ViewEvents.vb</DependentUpon>
+    <Compile Include="Results.Designer.vb">
+      <DependentUpon>Results.vb</DependentUpon>
     </Compile>
-    <Compile Include="ViewEvents.vb">
+    <Compile Include="Results.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ViewExams.Designer.vb">
-      <DependentUpon>ViewExams.vb</DependentUpon>
+    <Compile Include="ResultsFilter.Designer.vb">
+      <DependentUpon>ResultsFilter.vb</DependentUpon>
     </Compile>
-    <Compile Include="ViewExams.vb">
+    <Compile Include="ResultsFilter.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ViewHomework.Designer.vb">
-      <DependentUpon>ViewHomework.vb</DependentUpon>
+    <Compile Include="Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
     </Compile>
-    <Compile Include="ViewHomework.vb">
+    <Compile Include="Settings.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ViewLetters.Designer.vb">
-      <DependentUpon>ViewLetters.vb</DependentUpon>
+    <Compile Include="ToDos.Designer.vb">
+      <DependentUpon>ToDos.vb</DependentUpon>
     </Compile>
-    <Compile Include="ViewLetters.vb">
+    <Compile Include="ToDos.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ViewResults.Designer.vb">
-      <DependentUpon>ViewResults.vb</DependentUpon>
+    <Compile Include="ToDosEdit.Designer.vb">
+      <DependentUpon>ToDosEdit.vb</DependentUpon>
     </Compile>
-    <Compile Include="ViewResults.vb">
+    <Compile Include="ToDosEdit.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ViewRooms.Designer.vb">
-      <DependentUpon>ViewRooms.vb</DependentUpon>
+    <Compile Include="ToDosFilter.Designer.vb">
+      <DependentUpon>ToDosFilter.vb</DependentUpon>
     </Compile>
-    <Compile Include="ViewRooms.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ViewSubjects.Designer.vb">
-      <DependentUpon>ViewSubjects.vb</DependentUpon>
-    </Compile>
-    <Compile Include="ViewSubjects.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ViewToDos.Designer.vb">
-      <DependentUpon>ViewToDos.vb</DependentUpon>
-    </Compile>
-    <Compile Include="ViewToDos.vb">
+    <Compile Include="ToDosFilter.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="AddBooks.resx">
-      <DependentUpon>AddBooks.vb</DependentUpon>
+    <EmbeddedResource Include="Assignments.resx">
+      <DependentUpon>Assignments.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddEvents.resx">
-      <DependentUpon>AddEvents.vb</DependentUpon>
+    <EmbeddedResource Include="AssignmentsEdit.resx">
+      <DependentUpon>AssignmentsEdit.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddExams.resx">
-      <DependentUpon>AddExams.vb</DependentUpon>
+    <EmbeddedResource Include="AssignmentsFilter.resx">
+      <DependentUpon>AssignmentsFilter.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddHomework.resx">
-      <DependentUpon>AddHomework.vb</DependentUpon>
+    <EmbeddedResource Include="Exams.resx">
+      <DependentUpon>Exams.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddLetters.resx">
-      <DependentUpon>AddLetters.vb</DependentUpon>
+    <EmbeddedResource Include="ExamsEdit.resx">
+      <DependentUpon>ExamsEdit.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddResults.resx">
-      <DependentUpon>AddResults.vb</DependentUpon>
+    <EmbeddedResource Include="ExamsFilter.resx">
+      <DependentUpon>ExamsFilter.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddRooms.resx">
-      <DependentUpon>AddRooms.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AddSubjects.resx">
-      <DependentUpon>AddSubjects.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AddToDos.resx">
-      <DependentUpon>AddToDos.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditBooks.resx">
-      <DependentUpon>EditBooks.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditEvents.resx">
-      <DependentUpon>EditEvents.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditExams.resx">
-      <DependentUpon>EditExams.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditHomework.resx">
-      <DependentUpon>EditHomework.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditLetters.resx">
-      <DependentUpon>EditLetters.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditResults.resx">
-      <DependentUpon>EditResults.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditRooms.resx">
-      <DependentUpon>EditRooms.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditSubjects.resx">
-      <DependentUpon>EditSubjects.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EditToDos.resx">
-      <DependentUpon>EditToDos.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FilterBooks.resx">
-      <DependentUpon>FilterBooks.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FilterEvents.resx">
-      <DependentUpon>FilterEvents.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FilterExams.resx">
-      <DependentUpon>FilterExams.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FilterHomeworks.resx">
-      <DependentUpon>FilterHomeworks.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FilterLetters.resx">
-      <DependentUpon>FilterLetters.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FilterResults.resx">
-      <DependentUpon>FilterResults.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FilterRooms.resx">
-      <DependentUpon>FilterRooms.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FilterSubjects.resx">
-      <DependentUpon>FilterSubjects.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FilterToDos.resx">
-      <DependentUpon>FilterToDos.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MainMenu.resx">
-      <DependentUpon>MainMenu.vb</DependentUpon>
+    <EmbeddedResource Include="Landing.resx">
+      <DependentUpon>Landing.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -411,45 +210,39 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewBooks.resx">
-      <DependentUpon>ViewBooks.vb</DependentUpon>
+    <EmbeddedResource Include="ResultsEdit.resx">
+      <DependentUpon>ResultsEdit.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewEvents.resx">
-      <DependentUpon>ViewEvents.vb</DependentUpon>
+    <EmbeddedResource Include="Results.resx">
+      <DependentUpon>Results.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewExams.resx">
-      <DependentUpon>ViewExams.vb</DependentUpon>
+    <EmbeddedResource Include="ResultsFilter.resx">
+      <DependentUpon>ResultsFilter.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewHomework.resx">
-      <DependentUpon>ViewHomework.vb</DependentUpon>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewLetters.resx">
-      <DependentUpon>ViewLetters.vb</DependentUpon>
+    <EmbeddedResource Include="ToDos.resx">
+      <DependentUpon>ToDos.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewResults.resx">
-      <DependentUpon>ViewResults.vb</DependentUpon>
+    <EmbeddedResource Include="ToDosEdit.resx">
+      <DependentUpon>ToDosEdit.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewRooms.resx">
-      <DependentUpon>ViewRooms.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ViewSubjects.resx">
-      <DependentUpon>ViewSubjects.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ViewToDos.resx">
-      <DependentUpon>ViewToDos.vb</DependentUpon>
+    <EmbeddedResource Include="ToDosFilter.resx">
+      <DependentUpon>ToDosFilter.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="AssistantDS.xsc">
-      <DependentUpon>AssistantDS.xsd</DependentUpon>
+    <None Include="AssistantDBDataSet.xsc">
+      <DependentUpon>AssistantDBDataSet.xsd</DependentUpon>
     </None>
-    <None Include="AssistantDS.xsd">
-      <SubType>Designer</SubType>
+    <None Include="AssistantDBDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>AssistantDS.Designer.vb</LastGenOutput>
+      <LastGenOutput>AssistantDBDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
     </None>
-    <None Include="AssistantDS.xss">
-      <DependentUpon>AssistantDS.xsd</DependentUpon>
+    <None Include="AssistantDBDataSet.xss">
+      <DependentUpon>AssistantDBDataSet.xsd</DependentUpon>
     </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -463,28 +256,54 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AccessDatabaseEngine.exe" />
-    <Content Include="add.png" />
+    <Content Include="add.ico" />
+    <Content Include="archive.ico" />
+    <Content Include="archive_hide.ico" />
+    <Content Include="archive_show.ico" />
+    <Content Include="assignments.ico" />
     <Content Include="AssistantDB.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="clear.png" />
-    <Content Include="edit.png" />
-    <Content Include="filter.png" />
+    <Content Include="delete.ico" />
+    <Content Include="edit.ico" />
+    <Content Include="exams.ico" />
+    <Content Include="export.ico" />
+    <Content Include="filter_add.ico" />
+    <Content Include="filter_remove.ico" />
     <Content Include="icon.ico" />
-    <Content Include="icon.png" />
-    <Content Include="remove.png" />
-    <Content Include="save.png" />
-    <Content Include="search.png" />
-    <Content Include="view.png" />
+    <Content Include="refresh.ico" />
+    <Content Include="results.ico" />
+    <Content Include="settings.ico" />
+    <Content Include="todos.ico" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

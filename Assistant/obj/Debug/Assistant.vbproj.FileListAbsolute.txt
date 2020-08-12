@@ -1,48 +1,27 @@
-c:\users\sam\documents\visual studio 2015\Projects\Assistant\Assistant\bin\Debug\Assistant.exe.config
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\bin\Debug\Assistant.exe
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\bin\Debug\Assistant.pdb
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\bin\Debug\Assistant.xml
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.vbprojResolveAssemblyReference.cache
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.MainMenu.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.Resources.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.vbproj.GenerateResource.Cache
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.exe
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.xml
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.pdb
-C:\Users\Sam\Documents\Visual Studio 2015\Projects\Assistant\Assistant\bin\Debug\AssistantDB.accdb
-C:\Users\Sam\Documents\Visual Studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.AddSubjects.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.EditSubjects.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.FilterSubjects.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.AddBooks.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.EditBooks.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.FilterBooks.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.AddEvents.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.EditEvents.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.FilterEvents.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.AddExams.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.EditExams.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.FilterExams.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.AddHomework.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.EditHomework.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.FilterHomeworks.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.AddLetters.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.EditLetters.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.FilterLetters.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.AddResults.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.EditResults.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.FilterResults.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.AddRooms.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.EditRooms.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.FilterRooms.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.ViewBooks.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.ViewEvents.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.ViewExams.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.ViewHomework.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.ViewLetters.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.ViewResults.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.ViewRooms.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.ViewSubjects.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.AddToDos.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.EditToDos.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.FilterToDos.resources
-C:\Users\Sam\documents\visual studio 2015\Projects\Assistant\Assistant\obj\Debug\Assistant.ViewToDos.resources
+C:\Users\Sam\Documents\Code\Assistant\Assistant\bin\Debug\AssistantDB.accdb
+C:\Users\Sam\Documents\Code\Assistant\Assistant\bin\Debug\Assistant.exe.config
+C:\Users\Sam\Documents\Code\Assistant\Assistant\bin\Debug\Assistant.exe
+C:\Users\Sam\Documents\Code\Assistant\Assistant\bin\Debug\Assistant.pdb
+C:\Users\Sam\Documents\Code\Assistant\Assistant\bin\Debug\Assistant.xml
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.vbprojAssemblyReference.cache
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.Landing.resources
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.Resources.resources
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.Settings.resources
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.vbproj.GenerateResource.cache
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.vbproj.CoreCompileInputs.cache
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.exe
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.xml
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.pdb
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.Assignments.resources
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.AssignmentsEdit.resources
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.AssignmentsFilter.resources
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.vbproj.ResolveComReference.cache
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.Exams.resources
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.ExamsEdit.resources
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.ExamsFilter.resources
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.ResultsEdit.resources
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.Results.resources
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.ResultsFilter.resources
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.ToDos.resources
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.ToDosEdit.resources
+C:\Users\Sam\Documents\Code\Assistant\Assistant\obj\Debug\Assistant.ToDosFilter.resources
